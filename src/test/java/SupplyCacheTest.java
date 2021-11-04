@@ -71,7 +71,6 @@ public class SupplyCacheTest {
 
   public static String getServerIp() {
 //    return "http://127.0.0.1:8080";
-//    return "https://ramplift-v2-i-resource-service-us-east-1-k8s-internal.ramp-ut.io";
     return System.getenv("SERVER_URL");
   }
 }
